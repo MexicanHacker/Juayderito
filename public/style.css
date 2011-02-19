@@ -1,35 +1,46 @@
 body {
-    background: #111;
-    font: 60px Helvetica, Arial, sans-serif;
+	background:black;
+    font: 40px Helvetica, Arial, sans-serif;
     letter-spacing: -3px;
     margin: 8px;
     margin-left: 0px;
 }
 
-#juay {
-    position:absolute;
-    top: 20%;
-    font-size: 200%;
-    color: #58aa00;
-}
- 
-#ju {
-    position:absolute;
-    top: 5%;
+#ju_says {
+    margin-top: 2%;
+	margin-bottom: 2%;
     color: yellow;
 }
-  
-#signature {
-    position: absolute;
-    bottom: 5%; 
-    font-size: 50%;
+
+#juay {
+	float:left;
+	width:80%;
+    margin: 2% 2% 2% 2%;
+	font-size:200%;
+    color: #58aa00;
+}
+   
+#juay_me{
+	clear:right;
+}
+
+.signature {
+    bottom: 5%;
+ 	margin-right:20px;
     color: #5c5c5c;
 }
 
-#autor {
-    position: absolute;
+#author {
     bottom: 5%; 
-    left: 30%;
-    font-size: 50%;
+    left: 20%;
     color: #FF0000;
 }	
+
+#next a{
+	color:orange;
+}
+
+#dummy{
+	clear:both;
+	width:100%;
+}
