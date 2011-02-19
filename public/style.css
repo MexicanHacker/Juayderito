@@ -7,11 +7,29 @@ body {
 }
 
 #juay {
+    position:absolute;
+    top: 20%;
+    font-size: 200%;
     color: #58aa00;
+}
+ 
+#ju {
+    position:absolute;
+    top: 5%;
+    color: yellow;
 }
   
 #signature {
     position: absolute;
     bottom: 5%; 
+    font-size: 50%;
     color: #5c5c5c;
 }
+
+#autor {
+    position: absolute;
+    bottom: 5%; 
+    left: 20%;
+    font-size: 50%;
+    color: #FF0000;
+}	
