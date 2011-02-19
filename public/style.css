@@ -13,13 +13,18 @@ body {
 }
 
 #juay {
+	float:left;
+	width:80%;
     margin: 2% 2% 2% 2%;
 	font-size:200%;
     color: #58aa00;
 }
    
-#signature {
-	float:left;
+#juay_me{
+	clear:right;
+}
+
+.signature {
     bottom: 5%;
  	margin-right:20px;
     color: #5c5c5c;
@@ -33,4 +38,9 @@ body {
 
 #next a{
 	color:orange;
+}
+
+#dummy{
+	clear:both;
+	width:100%;
 }

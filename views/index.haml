@@ -1,8 +1,12 @@
 %link(rel="stylesheet" type="text/css" href="/style.css")
 #ju_says #{@ju} ceiz:
-#juay #{@juay}
-#signature Traido para ustedes por: 
-#author
-  %a{:href => 'http://www.twitter.com/mexicanhacker'} @mexicanhacker
-%p#next{:align => 'center'}
-  %a{:href => '/'} Otro tweet!
+#juay_wrap
+  #juay #{@juay}
+  #juay_me 
+    %img{:src => 'http://twitpic.com/show/thumb/40ldtw.jpg', :title => 'hahahahaha #juayderito on Twitpic', :width => '150',
+		:height => '150'}
+    %p#next
+      %a{:href => '/'} Otro tweet!
+#dummy
+%p.signature Idea original por: <a href="http://www.twitter.com/mexicanhacker"> @mexicanhacker</a>
+%p.signature Complementado por: <a href="http://www.twitter.com/hackergil"> @hackergil</a>
