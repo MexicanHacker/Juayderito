@@ -14,20 +14,27 @@ body {
 
 #juay {
 	float:left;
-	width:80%;
+	width: 80%;
     margin: 2% 2% 2% 2%;
-	font-size:200%;
+	font-size:170%;
     color: #58aa00;
+		overflow : auto;
 }
    
 #juay_me{
-	clear:right;
+	clear: right;
+	float: left;
+}
+
+#juay_wrap{
+	height: 450px;
 }
 
 .signature {
     bottom: 5%;
  	margin-right:20px;
     color: #5c5c5c;
+		font-size: 25px;
 }
 
 #author {
@@ -35,6 +42,11 @@ body {
     left: 20%;
     color: #FF0000;
 }	
+
+#next
+{
+	padding-top: 20px;	
+}
 
 #next a{
 	color:orange;
