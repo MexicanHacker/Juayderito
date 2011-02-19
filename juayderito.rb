@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'twitter'
-
+require 'haml'
 get '/' do
-'Juay!'
-search = Twitter::Search.new
-"#{search.hashtag("juay").no_retweets.per_page(1).fetch.first.text}"
+    search = Twitter::Search.new
+    @juay = "#{search.hashtag("juay").no_retweets.per_page(1).page(rand(100)).fetch.first.text}"
+    haml :index
 end
