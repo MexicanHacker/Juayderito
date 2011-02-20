@@ -17,10 +17,10 @@
       url : "/new_tweet",
       success : function(data){
         var tweet = $.parseJSON(data);
-        $("#ju_says").text(tweet.name + " says:");
+        $("#ju_says").text("@"+tweet.name + " says:");
         $("#juay").text(tweet.text);
       }
     });
     };
-    setInterval("newTweet()", 5000);
+    setInterval("newTweet()", 8000);
   });
