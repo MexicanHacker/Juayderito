@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require 'TweetFetcher'
+require 'tweet_fetcher'
 require 'haml'
 
 @@fetcher = TweetFetcher.new

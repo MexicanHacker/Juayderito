@@ -1,4 +1,4 @@
-require 'TweetFetcher'
+require 'tweet_fetcher'
 require 'test/unit'
 
 class TestTweetFetcher < Test::Unit::TestCase
